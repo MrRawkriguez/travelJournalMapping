@@ -98,3 +98,7 @@ article.journal-entry .main-image {
     color: #2b283a;
     width: 325px;
 }
+
+.toggle-description {
+    font-weight: bold;
+}
