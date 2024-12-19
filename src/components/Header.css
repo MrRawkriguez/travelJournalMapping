@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    background: #F55A5A;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 55px;
+}
+
+.header img {
+    width: 25px;
+}
+
+.header-text {
+    font-size: 0.9rem;
+    padding-left: 10px;
+    font-family: Inter;
+}
+

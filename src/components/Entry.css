@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+article {
+    font-family: Inter;
+    font-weight: 500;
+    margin: 35px 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+article.journal-entry {
+    font-family: "Inter";
+    display: flex;
+}
+
+article.journal-entry .marker {
+    width: 7px;
+    margin-right: 4px;
+}
+
+article.journal-entry .main-image-container {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 19px;
+}
+
+article.journal-entry .main-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-container {
+    margin-left: 20px;
+}
+
+.info-flex {
+    display: flex;
+    position: relative;
+    margin: 18px 0;
+}
+
+.country {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2b283a;
+    margin: 0 10px 0 15px
+}
+
+.country::before {
+    position: absolute;
+    content: "";
+    background: #f55a5a;
+    width: 10px;
+    height: 10px;
+    left: 0;
+    border-radius: 50px;
+}
+
+.map-link {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #918e9b;
+    text-decoration-line: underline;
+    text-wrap: nowrap;
+}
+
+.map-link:hover {
+    opacity: 0.4;
+}
+
+.entry-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #2b283a;
+    margin-bottom: 10px;
+    text-wrap: nowrap;
+}
+
+.trip-date {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2b283a;
+    margin-bottom: 5px;
+}
+
+.entry-text {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    color: #2b283a;
+    width: 325px;
+}
